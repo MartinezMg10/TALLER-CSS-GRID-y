@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding-top: 20px;
+    margin: 0 auto;
+    height: 800px;
+    width: 800px;
+    display: grid;
+    grid-template-areas: 
+            "uno dos tres tres"
+            "uno cuatro cinco seis"
+            "siete cuatro ocho ocho";
+    grid-template-rows: repeat(200px/ 4);
+    grid-template-columns: repeat(200px / 4);
+    gap:10px;
+}
+
+
+.img1{
+    grid-area: uno;
+    background-image: url(https://i.blogs.es/7cb0d5/benjamin-voros-1324463-unsplash/240_240.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    grid-area: dos;
+    background-image: url(https://i.blogs.es/d2d470/brandon-morgan-15366-unsplash/240_240.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img3{
+    grid-area: tres;
+    background-image: url(https://i.blogs.es/a456e2/casey-horner-1168117-unsplash/240_240.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img4{
+    grid-area: cuatro;
+    background-image: url(https://i.blogs.es/525b3a/eberhard-grossgasteiger-1195660-unsplash/240_240.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img5{
+    grid-area: cinco;
+    background-image: url(https://i.blogs.es/b5f0b6/eberhard-grossgasteiger-1269060-unsplash/240_240.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img6{
+    grid-area: seis;
+    background-image: url(https://i.blogs.es/9238e4/eberhard-grossgasteiger-1405472-unsplash/240_240.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img7{
+    grid-area: siete;
+    background-image: url(https://i.blogs.es/9c145b/kasra-assadian-1287699-unsplash/240_240.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img8{
+    grid-area: ocho;
+    background-image: url(https://i.blogs.es/8115b2/johny-goerend-411397-unsplash/240_240.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
